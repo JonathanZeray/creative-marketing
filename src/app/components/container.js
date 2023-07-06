@@ -26,11 +26,11 @@ export default function Container() {
 
   return (
     <>
-      <div className="flex w-full h-full justify-center px-2 mb-8">
-        <div className="flex flex-col w-1/5 mx-4 space-y-6">
+      <div className="flex w-full h-full justify-center px-2 mb-12">
+        <div className="flex flex-col w-1/5 mx-1 sm:mx-3 space-y-2 cursor-pointer">
           {div1Images.map((fileName, index) => (
             <div key={index}>
-              <img
+              <img className="border-transparent border-8 transition ease-in-out hover:scale-95 hover:border-indigo-500"
                 src={`/images/${fileName}`}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
@@ -38,10 +38,10 @@ export default function Container() {
             </div>
           ))}
         </div>
-        <div className="flex flex-col w-2/12 mx-4 space-y-6">
+        <div className="flex flex-col w-2/12 mx-1 sm:mx-3 space-y-2 cursor-pointer">
         {div2Images.map((fileName, index) => (
             <div key={index}>
-              <img
+              <img className="border-transparent border-8 transition ease-in-out hover:scale-95 hover:border-indigo-500"
                 src={`/images/${fileName}`}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
@@ -49,10 +49,10 @@ export default function Container() {
             </div>
           ))}
         </div>
-        <div className="flex flex-col w-2/12 mx-4 space-y-6">
+        <div className="flex flex-col w-2/12 mx-1 sm:mx-3 space-y-2 cursor-pointer">
         {div3Images.map((fileName, index) => (
             <div key={index}>
-              <img
+              <img className="border-transparent border-8 transition ease-in-out hover:scale-95 hover:border-indigo-500"
                 src={`/images/${fileName}`}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
@@ -60,10 +60,10 @@ export default function Container() {
             </div>
           ))}
         </div>
-        <div className="flex flex-col w-2/12 mx-4 space-y-6">
+        <div className="flex flex-col w-2/12 mx-1 sm:mx-3 space-y-2 cursor-pointer">
         {div4Images.map((fileName, index) => (
             <div key={index}>
-              <img
+              <img className="border-transparent border-8 transition ease-in-out hover:scale-95 hover:border-indigo-500"
                 src={`/images/${fileName}`}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
@@ -71,10 +71,10 @@ export default function Container() {
             </div>
           ))}
         </div>
-        <div className="flex flex-col w-2/12 mx-4 space-y-6">
+        <div className="flex flex-col w-2/12 mx-1 sm:mx-3 space-y-2 cursor-pointer">
         {div5Images.map((fileName, index) => (
             <div key={index}>
-              <img
+              <img className="border-transparent border-8 transition ease-in-out hover:scale-95 hover:border-indigo-500"
                 src={`/images/${fileName}`}
                 alt=""
                 style={{ width: "100%", height: "auto" }}
